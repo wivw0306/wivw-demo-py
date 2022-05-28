@@ -60,14 +60,14 @@ https://pypi.org/manage/projects/
 登陆https://pypi.org/manage/account/,找到api token,添加一个新的token
 
 ## 3.配置token 
+```shell
 cat ~/.pypirc
-```editorconfig
 [pypi]
 username: __token__
 password: pypi-AgEIcHlwaS5vcmcCYxxzI0WuBg-zgyXxBO1r4ZW6hX450jdsw
-
 ```
-用户名和密码也可以用自己的个人登陆账号,但不推荐,推荐用token方式验证.
+
+> 用户名和密码也可以用自己的个人登陆账号,但不推荐,推荐用token方式验证.
 
 ## 4.上传包到pypi
 ```shell
