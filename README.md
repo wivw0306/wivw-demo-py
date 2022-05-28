@@ -9,8 +9,8 @@ python setup.py sdist bdist_wheel
 ```
 
 ## 2.上传包到私有 pypi 源 
+```shell
 cat ~/.pypirc
-```editorconfig
 [distutils]
 index-servers = pypi local
 

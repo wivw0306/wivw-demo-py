@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='wivw_demo',
-    version='0.0.7',
+    version='0.0.8',
     description='我的工具',
     long_description=open("README.md").read().strip(),
     long_description_content_type="text/markdown",
