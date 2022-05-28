@@ -1,0 +1,5 @@
+*.pyc
+build/
+dist/
+wivw_demo.egg-info
+.idea
